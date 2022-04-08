@@ -12,7 +12,9 @@ This is how to do heading 1 another way
 [How to Link](https://commonmark.org/help/)
 
 Markdown Guide
+
 ![image](https://polisci.ucsd.edu/_images/210115-Geisel-135DSC_7396-UCSanDiego-ErikJepsen_1.jpeg)
+
 > How to Blockquote
 
 **How to make Lists**
