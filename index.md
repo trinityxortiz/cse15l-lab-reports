@@ -38,10 +38,6 @@ Markdown Guide
 Horizontal Rule
 ---
 
-Another Horizontal Rule
-***
-
-
 `How to write in line code` using backticks
 
 ```
