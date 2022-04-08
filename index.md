@@ -1,4 +1,5 @@
 **CSE 15L Spring 2022**
+- [Lab Report 1 - Week 2](lab-report-1-week-2.html)
 
 *How to italicize* and _another way to italicize_
 
