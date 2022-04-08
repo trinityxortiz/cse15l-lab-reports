@@ -1,3 +1,3 @@
 Lab Report #1
 ===
-![scp command ss](Screenshot (175).png)
+![Markdown Syntax](https://github.com/trinityxortiz/cse15l-lab-reports/blob/main/Screenshot%20(183).png)
