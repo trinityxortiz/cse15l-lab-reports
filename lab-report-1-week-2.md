@@ -1,3 +1,3 @@
 Lab Report #1
 ===
-![Markdown Syntax](Screenshot%20(183).png)
+<img src= "/Images/Screenshot (175).png" alt="scp command ss" title="Lab 1">
