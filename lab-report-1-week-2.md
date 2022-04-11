@@ -175,8 +175,13 @@ Copying files back and forth between computers is important. We will now learn h
         $ ssh cs15lsp22xxx@ieng6.ucsd.edu "ls -l"
         ```
         ![ssh and ls-l combined command](Images\ssh-combined-lslat.png)
-        - You can also do this with running and compiling files: 
+        - You can also do this with running and compiling files:
         ```
+        $ ssh cs15lsp22xxx@ieng6.ucsd.edu; javac [file to compile]; java [file name without .java]
+        ```
+        - To combine commands, separate them with a semicolon "[command]; "
+        
+
 
 
 
