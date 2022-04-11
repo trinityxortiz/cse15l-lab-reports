@@ -47,6 +47,8 @@ In the UCSD CSE courses, you may be given a specific course account which are si
     Password:
     ```
     Type your password and you should see something like this:
+    ![ssh view after password](Images\ssh-login.png)
+    Congrats, you have now successfully logged into the UCSD server remotely!
     
 
 
