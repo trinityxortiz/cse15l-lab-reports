@@ -1,5 +1,16 @@
-Lab Report #1
-===
+**Lab Report #1: Logging Into UCSD Servers**
+=============
+- Installing VS Code
+- Remotely Connecting
+- Trying Commands
+- Moving Files using scp command
+- Setting an SSH Key
+- Optimizing Remote Running
 
-**Markdown Commands**
-![Markdown commands](https://github.com/trinityxortiz/cse15l-lab-reports/blob/main/Screenshot%20(183).png?raw=true)
+
+
+
+
+
+
+
