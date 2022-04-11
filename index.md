@@ -1,6 +1,7 @@
 CSE 15L Spring 2022
 ====
-Lab Reports
+Author: Trinity Ortiz  
 
-|   [Lab Report #1](/lab-report-1-week-2.md) 
+**LAB REPORTS**
+- [Lab Report #1](/lab-report-1-week-2.md) 
 
