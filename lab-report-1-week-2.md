@@ -15,6 +15,23 @@ In the UCSD CSE courses, you may be given a specific course account which are si
     - [Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
     - Find your course-specific account [here](https://sdacs.ucsd.edu/~icc/index.php) and take note of what your password is.
         - If you don't know your password, reset it using your UCSD credentials. It may take a few minutes to an hour for the system to update your password.
+        - You should see an account with the class name and 3 letters following it
+            - For example 'cs12sp22***' where *** is 3 letters
+    ![ETS Lookup Page](Images\ETS-Lookup.png)
+    - Now open a terminal either in VSCode or your computer's command prompt. 
+    ![How to open the terminal](Images\TerminalView.png)
+    
+    The terminal should now be open and it should look something like this:
+
+    ```
+    PS C:\Users\usr 
+    ```
+    Now we can connect to ther server.  
+     At UCSD we will be connecting to the ***ieng6.ucsd.edu*** server.  
+    Type the following into your terminal using this format: username@ieng6.ucsd.edu where xxx is your specific account
+    ```
+    C:\Users\usr ssh cs15lsp22xxx@ieng6.ucsd.edu
+    ```
     
 
 
