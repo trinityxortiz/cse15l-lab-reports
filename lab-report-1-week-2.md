@@ -6,9 +6,10 @@ To start running your programs with ease on a linux operating system using your 
 
 1. Install Visual Studio Code   
     - To download VS Code go to the [VS Code Dowload Page](https://code.visualstudio.com/)  
-        - Click on the "Download for Windows" button and follow the directions to install the installer
-    ![VS Code Dowload Page](VSCode-DownloadScreen.png)
-    
+        - Click on the "Download for Windows" button to download and install VS Code onto your local computer
+    ![VS Code Dowload Page](Images/VSCode-DownloadScreen.png)
+    - Once you have installed VS Code, you should see a screen similar to this &darr;
+    ![VS Code Dowload Page](Images/VSCode-Home.png)
 
 
 - Remotely Connecting
