@@ -28,10 +28,28 @@ In the UCSD CSE courses, you may be given a specific course account which are si
     ```
     Now we can connect to ther server.  
      At UCSD we will be connecting to the ***ieng6.ucsd.edu*** server.  
-    Type the following into your terminal using this format: username@ieng6.ucsd.edu where xxx is your specific account
+    Type the following into your terminal using this format: username@ieng6.ucsd.edu where xxx is your specific account letters.
     ```
-    C:\Users\usr ssh cs15lsp22xxx@ieng6.ucsd.edu
+    PS C:\Users\usr ssh cs15lsp22xxx@ieng6.ucsd.edu
     ```
+    During your first time logging in, you make be prompted with a message asking if you want to continue connecting to the server. 
+    ```
+     PS C:\Users\usr ssh cs15lsp22xxx@ieng6.ucsd.edu
+
+     The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+
+     RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+
+     Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ```
+    Type yes and press enter. You will be prompted for your password.
+    ```
+    Password:
+    ```
+    Type your password and you should see something like this:
+    
+
+
     
 
 
