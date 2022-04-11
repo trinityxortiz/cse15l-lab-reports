@@ -49,45 +49,55 @@ In the UCSD CSE courses, you may be given a specific course account which are si
     Type your password and you should see something like this:
     ![ssh view after password](Images\ssh-login.png)
     Congrats, you have now successfully logged into the UCSD server remotely!
-3. Running Commands on Your Computer and the Remote Computer
+3. **Running Commands on Your Computer and the Remote Computer**
     > Now that you can login in remotely, let's try running some commands on both your local comupter and the server.
     
     
     ```
     cd ~
     ```
+    &rarr; Takes you to the home directory 
     ```
-    cd 
+    cd <directory>
     ```
+    &rarr; Changes the directory to the specified directory
     ```
     pwd
     ```
+    &rarr; Prints the working directory
     ```
     mkdir
     ```
+    &rarr; Makes a new directory
     ```
-    cp
+    cp <file or directory> <destination directory>
     ```
+    &rarr; Copies a file or directory to the directory specified
     ```
     ls -lat
     ```
+    &rarr; Shows a list of all files and directories within the current directory by date
     ```
     ls -a
     ```
+    &rarr; Shows all files and directories within the current directory
     ```
-    ls <directory>
+    ls
     ```
-    ```
-    cd ~
-    ```
-
+    &rarr; Lists files and directories within the current directory
+   
+   > To try any of these commands
+       1. Open your terminal  
+       2. Type in the command and any files or directories you want to see or go to
     
+    This is an example of the cd command on the remote server:
+    ![command practice](Images\cd-command-remote.png)
 
+4. **Moving Files using scp command**
 
-- Trying Commands
-- Moving Files using scp command
-- Setting an SSH Key
-- Optimizing Remote Running
+5. **Setting an SSH Key**
+6. **Optimizing Remote Running**
+
 
 
 
