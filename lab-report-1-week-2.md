@@ -49,8 +49,37 @@ In the UCSD CSE courses, you may be given a specific course account which are si
     Type your password and you should see something like this:
     ![ssh view after password](Images\ssh-login.png)
     Congrats, you have now successfully logged into the UCSD server remotely!
+3. Running Commands on Your Computer and the Remote Computer
+    > Now that you can login in remotely, let's try running some commands on both your local comupter and the server.
     
-
+    
+    ```
+    cd ~
+    ```
+    ```
+    cd 
+    ```
+    ```
+    pwd
+    ```
+    ```
+    mkdir
+    ```
+    ```
+    cp
+    ```
+    ```
+    ls -lat
+    ```
+    ```
+    ls -a
+    ```
+    ```
+    ls <directory>
+    ```
+    ```
+    cd ~
+    ```
 
     
 
