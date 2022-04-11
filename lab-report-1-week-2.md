@@ -94,9 +94,89 @@ In the UCSD CSE courses, you may be given a specific course account which are si
     ![command practice](Images\cd-command-remote.png)
 
 4. **Moving Files using scp command**
+Copying files back and forth between computers is important. We will now learn how to copy a file from a computer to a remote computer. 
+    - We will do this by creating a java file on our local computer named WhereAmI.java with these contents:
+    ```
+    class WhereAmI {
+        public static void main(String[] args) {
+            System.out.println(System.getProperty("os.name"));
+            System.out.println(System.getProperty("user.name"));
+            System.out.println(System.getProperty("user.home"));
+            System.out.println(System.getProperty("user.dir"));
+        }
+    }
+    ``` 
+    - Now on your local terminal, run the file using java and javac
+    - Now type the following using your username:
+    ```
+    scp WhereAmI.java cs15lsp22xxx@ieng6.ucsd.edu:~/
+    ```
+    You will be prompted for a password then you should see something like this:
+    ![scp command](Images\scp-execution.png)
 
+    - Now login to the server using the ssh command. Mine does not show the password prompt but your screen should.
+    - Type this command:
+    ```
+    $ ls 
+    ```
+    - You should now see a list of files in your home directory on the remote server. This will now include WhereAmI.java.
+    ![ls in remote terminal](Images\scp.png)
+    - If you run the javac and java commands on the files, you will see results related to the remote computer on the server instead of your local computer.
 5. **Setting an SSH Key**
+   > Entering your password is tedious and time consuming. We will now be setting up an SSH key which wil automatically enter in your password for you and you will no longer need to input your password when using ssh or scp.  
+   The *ssh keys* let you do this. Using the ssh-keygen command creates a pair of files called public key and private key.  
+   The private key is stored on your computer and the public key is copied to the server.  
+   These keys will be used with the ssh command instead of your password. 
+
+   - Open the terminal on your computer.
+   - Type:
+   ```
+   ssh-keygen -t ed25519
+   ```
+   You will be prompted to enter a file like this:
+   ```
+    Generating public/private rsa key pair.
+
+    Enter file in which to save the key (/Users/<user-name>/.ssh/id_ed25519): 
+    ```
+    - Type the path by copying what is in the parenthesis.
+       - /Users/usr/.ssh/id_ed25519
+    - You will be prompted with the following but just press enter 
+    ```
+    Enter passphrase (empty for no passphrase): 
+    ```
+    > Your screen should look something like this:
+    ![keygen process](Images\keygen.png)
+
+    - Now we must copy the public key to the .ssh directory on the server
+        - login to the remote server
+        - make a directory called .ssh with a folder called authorized_keys
+        ```
+        $ mkdir .ssh
+        $ cd .ssh
+        $ mkdir authorized_keys
+        ```
+        - Logout by typing exit and this will take you back to your local terminal.
+        ```
+        $ exit
+        ```
+        - Now type the following into your local terminal using your class account:
+        ```
+        $ scp /Users/usr/.ssh/id_ed25519.pub cs15lsp22xxx@ieng6.ucsd.edu:~/.ssh/authorized_keys
+        ```
+        - Now login using ssh and you should be logged in without a password!
+        ![ssh without a password](Images\ssh-no-pw.png)
+
 6. **Optimizing Remote Running**
+    - Not having to enter a password each time is great, but we can make it even better.
+    - Use semicolons to run multiple commands using one line.
+        - For example, this logs into the server and lists the home directory contents on the remote server:
+        ```
+        $ ssh cs15lsp22xxx@ieng6.ucsd.edu "ls -l"
+        ```
+        ![ssh and ls-l combined command](Images\ssh-combined-lslat.png)
+        - You can also do this with running and compiling files: 
+        ```
 
 
 
