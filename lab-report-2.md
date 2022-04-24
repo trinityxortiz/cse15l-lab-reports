@@ -1,3 +1,5 @@
+<title>Lab Report 2</title>
+
 # Lab Report 2: Debugging & Improving a Program
 Published: 4/24/22  
 ***
