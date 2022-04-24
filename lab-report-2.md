@@ -1,7 +1,7 @@
-# Lab Report 2
+# Lab Report 2: Debugging & Improving a Program
 Published: 4/24/22
 ***
-## Debugging & Improving a Program  
+
 ### Failure 1: [insert failure] 
 
 ### Failure 2: [insert failure]
