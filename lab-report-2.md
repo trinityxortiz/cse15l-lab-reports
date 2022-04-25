@@ -1,21 +1,15 @@
 # Lab Report 2: Debugging & Improving a Markdown Parser 
 Published: 4/24/22  
 
-## Failure 1: Out of Memory Error
+## Failure 1: Parsing Through a File With an Extra Line
 ***
 
-Symptom Description:  
-
-![Symptom SS]()  
-
-Failing Test File: []()  
-
-![Change Commit SS]()  
+Failing Test File: [Test File 2](https://github.com/trinityxortiz/markdown-parser/blob/main/Testing/test-file-2.md)
 
 ## Failure 2: Reading Images as A Link
 ***
 
-Failing Test File: [Test File 3](https://github.com/trinityxortiz/markdown-parser/blob/e93fdc1154d0d3348d5ccb5099b7c23f321e8e80/Testing/test-file-3.md)  
+Failing Test File: [Test File 3](https://github.com/trinityxortiz/markdown-parser/blob/main/Testing/test-file-3.md)  
 Failure-Inducing Output: ![Symptom SS](Images\Lab 3\TF3-Ouput.png)
 
 Commit with Changes: ![Change Commit SS](Images\Lab 3\TF3-Fix.png)  
