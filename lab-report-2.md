@@ -23,15 +23,15 @@ Commit with Changes: ![Change Commit SS](Images\Lab 3\TF3-Fix.png)
 ### Relationships:
 The bug was that the program did not ignore images when searching for links. The symptom of this was the production of the wrong answer in the terminal. This symptom was shown by the failure-inducing output.
 
-## Failure 3: No Links
+## Failure 3: Reading Links With Brackets and Parenthesis Far Apart
 ***
 
-Symptom Description:
+Failing Test File: [Test File 4](https://github.com/trinityxortiz/markdown-parser/blob/main/Testing/test-file-4.md)  
+Failure-Inducing Output: ![Symptom SS](Images\Lab 3\TF4-FIP.png)
 
-![Symptom SS]()  
+Commit with Changes: ![Change Commit SS]()  
 
-Failing Test File: []()  
-
-![Change Commit SS]()     
+### Relationships:
+The bug was that the parser kept looking for the parenthesis after the brackets even though they are supposed to be right next to one another. The symptom of this was the production of the wrong answer in the terminal. This symptom was shown by the failure-inducing output that showed the first link followed by another empty link.   
 
 
