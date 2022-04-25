@@ -17,9 +17,9 @@ Failing Test File: []()
 
 Symptom Description:  
 
-![Symptom SS]()  
+![Symptom SS](Images\Lab 3\TF3-Ouput.png)  
 
-Failing Test File: [](\Images\Lab 3\TF3-Ouput.png) 
+Failing Test File: [Test File 3](https://github.com/trinityxortiz/markdown-parser/blob/e93fdc1154d0d3348d5ccb5099b7c23f321e8e80/Testing/test-file-3.md) 
 
 ![Change Commit SS]()  
 
