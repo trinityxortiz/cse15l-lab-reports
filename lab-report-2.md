@@ -21,11 +21,6 @@ Failure-Inducing Output: ![Symptom SS](Images\Lab 3\TF3-Ouput.png)
 Commit with Changes: ![Change Commit SS]()  
 
 ### Relationships:
-The failure-inducing output was the following:
-```
-[geisel.jpeg]
-```
-
 The bug was that the program did not ignore images when searching for links. The symptom of this was the production of the wrong answer in the terminal. This symptom was shown by the failure-inducing output.
 
 ## Failure 3: No Links
