@@ -21,7 +21,7 @@ Failing Test File: [Test File 3](https://github.com/trinityxortiz/markdown-parse
 
 ![Change Commit SS]()  
 
-**Relationships:**  
+#### Relationships:
 The failure-inducing output was the following:
 ```
 [geisel.jpeg]
