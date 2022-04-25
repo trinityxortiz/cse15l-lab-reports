@@ -4,7 +4,13 @@ Published: 4/24/22
 ## Failure 1: Parsing Through a File With an Extra Line
 ***
 
-Failing Test File: [Test File 2](https://github.com/trinityxortiz/markdown-parser/blob/main/Testing/test-file-2.md)
+Failing Test File: [Test File 2](https://github.com/trinityxortiz/markdown-parser/blob/main/Testing/test-file-2.md)  
+Failure-Inducing Output: ![Symptom SS](Images\Lab 3\TF2-Output-Failure.png)
+
+Commit with Changes: ![]()
+
+### Relationships:
+The bug was that the program could not handle markdown files with an extra line and no proceeding links. The symptom of this was an out of memory error when running that file in the terminal. The failure-inducing ouput was the lack of output and the exception being shown instead.
 
 ## Failure 2: Reading Images as A Link
 ***
