@@ -15,8 +15,9 @@ Failing Test File: []()
 ## Failure 2: Reading Images as A Link
 ***
 
-Failing Test File: [Test File 3](https://github.com/trinityxortiz/markdown-parser/blob/e93fdc1154d0d3348d5ccb5099b7c23f321e8e80/Testing/test-file-3.md) 
-
+Failing Test File: [Test File 3](https://github.com/trinityxortiz/markdown-parser/blob/e93fdc1154d0d3348d5ccb5099b7c23f321e8e80/Testing/test-file-3.md)  
+Failure-Inducing Output:  
+  
 ![Symptom SS](Images\Lab 3\TF3-Ouput.png)
 
 ![Change Commit SS]()  
