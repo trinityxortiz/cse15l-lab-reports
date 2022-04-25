@@ -1,4 +1,4 @@
-# Lab Report 2: Debugging & Improving a Program  
+# Lab Report 2: Debugging & Improving a Markdown Parser 
 Published: 4/24/22  
 
 ### Failure 1: Out of Memory Error
