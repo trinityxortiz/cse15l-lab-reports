@@ -8,17 +8,14 @@
 
     ```
     touch config
-    ```
-  
-![view of config file in vscode](Images\Lab5\vscode_config_view.png)  
-
+    ```  
 3. Start by writing '# [Description]' so you remember what it is for.  
-
 4. Next type 'Host' followed by a nickname for the login  
 5. Then indent and type 'HostName' followed by the server name which is the part of your login after the '@'.  
 6. Press enter and type 'User' followed by your login name which is the part before the '@'.  
 7. If you happen to have multiple keys then you can also add 'IdentityFile' followed by the path to the private key file  
 You should now be able to login using the nickname you created!  
+![view of config file in vscode](Images\Lab5\vscode_config_view.png)  
 ![ssh login with shortcut](Images\Lab5\ssh_shortcut_login.png)  
 
 To test the new login, we can try using copying a file without logging in directly.  
