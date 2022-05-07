@@ -54,8 +54,10 @@ Now that we can acces Github from the server, we can run git commands on a repo 
 ![git clone](Images\Lab5\git_clone.png)  
 3. Make a change to the file using the echo command.  
 4. Check the git status  
-5. Use `git add -A; git commit -a -m` followed by the commit message to add and commit all current changes.  
-All changes should now be reflected on the Github server.  
-![git commands](Images\Lab5\git_commands_all.png) 
+5. Add the file to the staging area using `git add [file]`
+6. Commit using `git commit -m "[message]"  
+7. Push the commit using `git push` 
+Here is the [commit](https://github.com/trinityxortiz/cse15l-lab-reports/commit/14b3729d4fb694cfd872402a9049e6605e7115fc)  
+![git commands](Images\Lab5\commands.png)  
 
 ## Copy whole directories with 'scp -r' 
