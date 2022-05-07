@@ -39,13 +39,13 @@ This is what the directory on the server looks like **after** the scp:
 ![github tab](Images\Lab5\github_settings.png)  
 6. Press 'New SSH key'  
 ![new ssh key](Images\Lab5\new_sshkey.png)  
-7. Create a title of your choice.  
-![](Images\Lab5\add_new_view.png)  
-8. Copy and paste the contents of the public key from earlier and select 'Add SSH key'. 
+7. Create a title of your choice. Copy and paste the contents of the public key from earlier and select 'Add SSH key'. 
+![](Images\Lab5\add_new_view.png)   
 You can now connect to the Github server from your ieng6 account!  
 It should look something like this:  
 ![](Images\Lab5\key_storage.png)  
 Your private key should be stored in a file called id_rsa:  
-![](Images\Lab5\server_key_location.png)
+![](Images\Lab5\server_key_location.png)  
+
 
 ## Copy whole directories with 'scp -r' 
