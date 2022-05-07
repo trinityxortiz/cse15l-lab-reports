@@ -32,14 +32,20 @@ This is what the directory on the server looks like **after** the scp:
 1. To setup Github access, login to your server account.  
 2. Create a .ssh folder in the home directory if it is not already there.
     - Use the command `mkdir .ssh`
-3. Then make a new public and private key using this [tutorial](https://trinityxortiz.github.io/cse15l-lab-reports/lab-report-1-week-2.html) except instead of using `-t ed255519` use `-t rsa` and stop after creating the key. 
+3. Then make a new public and private key using this [tutorial](https://trinityxortiz.github.io/cse15l-lab-reports/lab-report-1-week-2.html) except instead of using `-t ed255519` use `-t rsa` and stop after creating the key.  
+![keygen server ](Images\Lab5\server_keygen.png)
 4. Go to the .ssh directory, and copy the contents the id_rsa.pub file by typing `cat id_rsa.pub` and copying the output.
-5. Go to your Github settings and select the 'SSH and GPG Keys' tab.
-6. Press 'New SSH key'
-7. Create a title of your choice.
-8. Copy and paste the contents of the public key from earlier and select 'Add SSH key'.
-
-You can now connect to the Github server from your ieng6 account!
-
+5. Go to your Github settings and select the 'SSH and GPG Keys' tab.  
+![github tab](Images\Lab5\github_settings.png)  
+6. Press 'New SSH key'  
+![new ssh key](Images\Lab5\new_sshkey.png)  
+7. Create a title of your choice.  
+![](Images\Lab5\add_new_view.png)  
+8. Copy and paste the contents of the public key from earlier and select 'Add SSH key'. 
+You can now connect to the Github server from your ieng6 account!  
+It should look something like this:  
+![](Images\Lab5\key_storage.png)  
+Your private key should be stored in a file called id_rsa:  
+![](Images\Lab5\server_key_location.png)
 
 ## Copy whole directories with 'scp -r' 
