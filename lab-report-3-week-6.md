@@ -59,9 +59,3 @@ All changes should now be reflected on the Github server.
 ![git commands](Images\Lab5\git_commands_all.png) 
 
 ## Copy whole directories with 'scp -r' 
-<<<<<<< HEAD
-Here are some git commands:  
-![commit]()
-test change
-=======
->>>>>>> 65a4e55dd5ad10e50063ddb68d032add6ab25486
