@@ -47,8 +47,21 @@ It should look something like this:
 Your private key should be stored in a file called id_rsa:  
 ![](Images\Lab5\server_key_location.png)  
 
+Now that we can acces Github from the server, we can run git commands on a repo through the terminal. 
+1. Copy the contents from the clone option for SSH in Github.  
+![Github SSH clone options](Images\Lab5\git_ssh.png)  
+2. Type git clone followed by the copied contents.  
+![git clone](Images\Lab5\git_clone.png)  
+3. Make a change to the file using the echo command.  
+4. Check the git status  
+5. Use `git add -A; git commit -a -m` followed by the commit message to add and commit all current changes.  
+All changes should now be reflected on the Github server.  
+![git commands](Images\Lab5\git_commands_all.png) 
 
 ## Copy whole directories with 'scp -r' 
+<<<<<<< HEAD
 Here are some git commands:  
 ![commit]()
 test change
+=======
+>>>>>>> 65a4e55dd5ad10e50063ddb68d032add6ab25486
