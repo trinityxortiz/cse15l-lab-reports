@@ -56,7 +56,7 @@ Now that we can acces Github from the server, we can run git commands on a repo 
 4. Check the git status  
 5. Add the file to the staging area using `git add [file]`
 6. Commit using `git commit -m "[message]"  
-7. Push the commit using `git push` 
+7. Push the commit using `git push`   
 Here is the [commit](https://github.com/trinityxortiz/cse15l-lab-reports/commit/14b3729d4fb694cfd872402a9049e6605e7115fc)  
 ![git commands](Images\Lab5\commands.png)  
 
