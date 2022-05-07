@@ -49,3 +49,5 @@ Your private key should be stored in a file called id_rsa:
 
 
 ## Copy whole directories with 'scp -r' 
+Here are some git commands:  
+![commit]()
