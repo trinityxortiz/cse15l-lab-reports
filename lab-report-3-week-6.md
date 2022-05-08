@@ -61,3 +61,10 @@ Now that we can acces Github from the server, we can run git commands on a repo 
 ![git commands](Images\Lab5\commands.png)  
 
 ## Copy whole directories with 'scp -r' 
+Copying my whole markdown-parse directory to my ieng6 account:  
+![recursive scp](Images\Lab5\recursive_scp.png)  
+
+Logging into my ieng6 account after doing this and compiling and running the tests for my repository:  
+![login and tests](Images\Lab5\login_after_recursive_copy.png) 
+
+Combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
