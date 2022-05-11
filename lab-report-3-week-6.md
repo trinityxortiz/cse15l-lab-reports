@@ -67,4 +67,6 @@ Copying my whole markdown-parse directory to my ieng6 account:
 Logging into my ieng6 account after doing this and compiling and running the tests for my repository:  
 ![login and tests](Images\Lab5\login_after_recursive_copy.png) 
 
-Combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+Combining scp, ;, and ssh to copy the whole directory and run the tests in one line.  
+![multiple commands in one terminal line](Images\Lab5\multiple_commands.png)  
+First I made sure that I was in the markdown-parse directory on my local computer. Then I used scp -r to copy all java, md, and lib files to the remote directory on the server. I logged in to the server and changed the directory and ran javac and java to run the JUnit tests. 
