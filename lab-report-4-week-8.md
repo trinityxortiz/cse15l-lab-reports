@@ -1,16 +1,42 @@
 # Lab Report 4 (Week 8)  
 Updated 5/21/2022  
 ## Relevant Repositiories:  
-- [MY REPOSITORY](https://github.com/trinityxortiz/markdown-parser-clone)  
-- [REVIEWED REPOSITORY]()  
+- [MY REPOSITORY](https://github.com/trinityxortiz/mdparse-week-7)  
+- [REVIEWED REPOSITORY](https://github.com/trinityxortiz/mdparse-for-review)  
 
 ## Testing  
 
 ### Tests On My Repository  
+TEST 1
+- Expected Output:
+- Test in MarkdownParseTest.java:
+- Test Results: 
 
-### Tests On Reviewed Repository  
+TEST 2
+- Expected Output:
+- Test in MarkdownParseTest.java:
+- Test Results:
 
-## Conclusions  
+TEST 3
+- Expected Output:
+- Test in MarkdownParseTest.java:
+- Test Results:
+
+### Tests On Reviewed Repository    
+TEST 1
+- Expected Output:
+- Test in MarkdownParseTest.java:
+- Test Results: 
+
+TEST 2
+- Expected Output:
+- Test in MarkdownParseTest.java:
+- Test Results:
+
+TEST 3
+- Expected Output:
+- Test in MarkdownParseTest.java:
+- Test Results:
 
 ## Questions  
 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.  
