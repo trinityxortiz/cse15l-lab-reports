@@ -7,30 +7,30 @@ Updated 5/21/2022
 ## Testing  
 
 ### Tests On My Repository  
-TEST 1
+**TEST 1**
 - Expected Output and test in MarkdownParseTest.java: ![snippet test 1](Images\report-4\snippet-test-1.png)
 - Test Results: PASS
 
-TEST 2
+**TEST 2**
 - Expected Output and test in MarkdownParseTest.java: ![snippet test 2](Images\report-4\snippet-test-2.png)
 - Test Results: PASS
 
-TEST 3
+**TEST 3**
 - Expected Output and test in MarkdownParseTest.java: ![snippet test 3](Images\report-4\snippet-test-3.png)
 - Test Results: PASS
 
 ![passing tests](Images\report-4\passing-tests-mine.png)
 
 ### Tests On Reviewed Repository    
-TEST 1
+**TEST 1**
 - Expected Output and test in MarkdownParseTest.java: ![snippet test 1](Images\report-4\snippet-test-1.png)
 - Test Results: PASS
 
-TEST 2
+**TEST 2**
 - Expected Output and test in MarkdownParseTest.java: ![snippet test 2](Images\report-4\snippet-test-2.png)
 - Test Results: PASS
 
-TEST 3
+**TEST 3**
 - Expected Output and test in MarkdownParseTest.java: ![snippet test 3](Images\report-4\snippet-test-3.png)
 - Test Results: PASS
 
