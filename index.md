@@ -1,5 +1,5 @@
 # CSE 15L Spring 2022
-====================
+====================  
 Author: Trinity Ortiz  
 
 ## LAB REPORTS
