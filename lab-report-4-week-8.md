@@ -43,5 +43,8 @@ Updated 5/21/2022
 
 3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.  
 
-
+## Answers  
+1. I think that there could be a code change to handle inline code with backticks. I could follow the same process as finding the open and closed brackets by checking if there is a backtick before a link and finding the next backtick. After skipping the inline code I could change the index to start searching for the brackets after the second backtick.  
+2. I don't think that there is a small code change to handle all instances of nested cases. It would take multiple lines of code to prevent all unique cases. For example, you would you have to check nested parentheses while in one set of parenthesis and keep track of the sets of open and closed parenthesis then ignore that number of parenthesis while still reading the remainder of the link inside the outermost closed parenthesis.  
+3. I don't think that this would be a small code change. You would have to keep searching for the closed parenthesis and you would have to copy this same code for the brackets. It would take twice the amount of lines as a change fo finding a closed parenthesis.
 
