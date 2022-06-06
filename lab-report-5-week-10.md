@@ -1,9 +1,5 @@
 # Lab Report 5 (Week 10)   
 Updated: 6/5/2022  
-
-## Comparing two repos
-- First, I cloned the [CSE15L repository](https://github.com/nidhidhamnani/markdown-parser.git) to the . Then I ran `make test` in the server. After that, I ran `bash script.sh > results.txt`. 
-
 ## Chosen Tests
 - [test 1]()
 - [test 2]()
