@@ -12,9 +12,12 @@ Updated: 6/5/2022
 ### Test 507
 - [] implementation was correct
 - [] implementation was not correct because of [this bug]. ![ss of code that should be changed].
-- Both actual outputs: ![screenshot of actual output]
+- Actual Outputs: ![screenshot of actual output](Images\report-5\507.png)
+- Expected Outputs: ![screenshot of expected output](Images\report-5\507-expected.png)
 
 
 ### Test 530
-- [] implementation was correct.
-- [] implementation was not correct because of [this bug].
+- [] implementation was correct
+- [] implementation was not correct because of [this bug]. ![ss of code that should be changed].
+- Actual Outputs: ![screenshot of actual output](Images\report-5\530-expected.png)
+- Expected Outputs: ![screenshot of expected output](Images\report-5\test530.png)
