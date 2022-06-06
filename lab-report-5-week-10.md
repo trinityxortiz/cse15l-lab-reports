@@ -10,7 +10,7 @@ Updated: 6/5/2022
 ## Determining the Correct Implementation 
 
 ### Test 507
-- [] implementation was correct
+- The class implementation was correct.
 - [] implementation was not correct because of [this bug]. ![ss of code that should be changed].
 - **Actual Outputs:** ![screenshot of actual output](Images\report-5\507.png)  
 (Left is my repo, right is class repo)
@@ -18,7 +18,7 @@ Updated: 6/5/2022
 
 
 ### Test 530
-- [] implementation was correct
+- My implementation was correct.
 - [] implementation was not correct because of [this bug]. ![ss of code that should be changed].
 - **Actual Outputs:** ![screenshot of actual output](Images\report-5\530-expected.png)  
 (Left is my repo, right is class repo)
