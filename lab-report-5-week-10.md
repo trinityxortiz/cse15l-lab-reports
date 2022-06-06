@@ -15,6 +15,6 @@ Updated: 6/5/2022
 - Both actual outputs: ![screenshot of actual output]
 
 
-## Test [insert # here]
+### Test [insert # here]
 - [] implementation was correct.
 - [] implementation was not correct because of [this bug].
