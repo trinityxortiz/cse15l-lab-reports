@@ -1,5 +1,5 @@
 # Lab Report 5 (Week 10)   
-Updated: 6/5/2022  
+Updated: 6/10/2022  
 ## Chosen Tests
 - [530](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/530.md)
 - [507](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/507.md)
