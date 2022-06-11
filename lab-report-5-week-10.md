@@ -11,7 +11,10 @@ Updated: 6/10/2022
 
 ### Test 507
 - The class implementation was correct.
-- My implementation was not correct because it should have ignored what is inside of the parenthesis since it is not a proper link. It should ignore what is inside the parenthesis if there are quotation marks or if the url starts with a slash. The code change could happen here when viewing the potential link. ![ss of code that should be changed](Images\report-5\530-bug.png)   
+- My implementation was not correct because it should have ignored what is inside of the parenthesis since it is not a proper link. It should ignore what is inside the parenthesis if there are quotation marks or if the url starts with a slash. The code change could happen here when viewing the potential link.  
+
+![ss of code that should be changed](Images\report-5\530-bug.png)  
+
 - **Actual Outputs:**  
 
 ![screenshot of actual output](Images\report-5\507.png)  
