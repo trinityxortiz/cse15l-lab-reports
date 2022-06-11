@@ -11,7 +11,7 @@ Updated: 6/5/2022
 
 ### Test 507
 - The class implementation was correct.
-- My implementation was not correct because of [this bug]. ![ss of code that should be changed].
+- My implementation was not correct because it.should have ingnored what is inside of the parenthesis because it is not a proper link. It should ignore what is inside the parenthesis if there are quotation marks or if the url starts with a slash. ![ss of code that should be changed](Images\report-5\530-bug.png)  
 - **Actual Outputs:** ![screenshot of actual output](Images\report-5\507.png)  
 (Left is my repo, right is class repo)
 - **Expected Outputs:** ![screenshot of expected output](Images\report-5\507-expected.png)
