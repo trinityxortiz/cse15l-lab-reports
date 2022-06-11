@@ -19,7 +19,7 @@ Updated: 6/5/2022
 
 ### Test 530
 - My implementation was correct.
-- The class implementation was not correct because of it should not read images as link. In this case, the image is embedded inside brackets so we should check if there is an exclamation mark and skip until we find a closed parenthesis. This area is where the code change should approximately take place.![ss of code that should be changed](Images\report-5\507-code-change.png).
+- The class implementation was not correct because it should not read images as link. In this case, the image is embedded inside brackets so we should check if there is an exclamation mark and skip until we find a closed parenthesis. This area is where the code change should approximately take place.![ss of code that should be changed](Images\report-5\507-code-change.png).
 - **Actual Outputs:** ![screenshot of actual output](Images\report-5\530-expected.png)  
 (Left is my repo, right is class repo)
 - **Expected Outputs:** ![screenshot of expected output](Images\report-5\test530.png)
